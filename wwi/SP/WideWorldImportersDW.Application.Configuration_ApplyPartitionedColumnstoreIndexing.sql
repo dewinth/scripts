@@ -6,8 +6,6 @@ GO
 DROP PROCEDURE IF EXISTS WideWorldImportersDW.[Application].[Configuration_ApplyPartitionedColumnstoreIndexing];  
 GO  
 
-
-
 CREATE PROCEDURE [Application].[Configuration_ApplyPartitionedColumnstoreIndexing]
 WITH EXECUTE AS OWNER
 AS
